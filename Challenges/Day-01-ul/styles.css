@@ -1,0 +1,28 @@
+li{
+    padding: 12px 16px;
+    line-height: 1.5; /*makes it readable*/
+    
+}
+ul{
+    list-style-type: none; 
+    padding: 24px 0; 
+    text-align: left;
+    max-width: 400px;
+    margin: auto;}
+li::before{
+    content: "👁️";
+    
+}
+h1{
+    text-align: center;
+    padding-top: 24px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+li:hover{
+    transform:translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
